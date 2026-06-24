@@ -2,6 +2,8 @@
 
 IBM z/OS Connect development tools offers features for developing APIs and API requesters inside Visual Studio Code. Create projects for development and generate the language structures required for mainframe application development.
 
+> Go here for the full [documentation](https://www.ibm.com/docs/en/zos-connect/3.0.0?topic=wizc-what-is-zos-connect-development-tools-visual-studio-code) online.
+
 ## Features
 
 * Generate API provider and API requester projects
@@ -15,6 +17,7 @@ Review the [IBM z/OS Connect development tools License Agreement](http://github.
 ## Requirements
 
 The following extensions are bundled with IBM z/OS Connect Tools for Visual Studio Code during installation and are provided here for additional information.
+
 * [Gradle for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
 * [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
@@ -34,4 +37,3 @@ This extension contributes the following settings:
 * `zcon.flattenOutput`: Specifies whether to remove the directory hierarchy from the generated copybooks.
 * `zcon.pluginRepositories`: List of private maven repositories to use to download plug-ins and dependencies.
 * `zcon.gradleArguments`: Arguments to be passed into the gradle process.
-
